@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>Vaibhavi Nandurkar CS24184 </title>
+</head>
+<body bg color = "blue">
+<h1>WELCOME TO WEB DESIGNING LAB</h1>
+<p align ="centre" style = color:Purple;>                                                                                                                                                          <strong>This is a Nikita Mam and Mayur Sir Web Designing Lab</strong>
+<p align ="right"> <u> <i> This is a Web Page  of Web Designing lab</i></u></p>
+<img src="C:\Users\Vaibhavi\OneDrive\画像">
+</body>
+</html>
