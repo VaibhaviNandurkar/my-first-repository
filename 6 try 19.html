@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VAIBHVAI NANDURKAR CS24184</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fdf6ec;
+      color: #3e2723;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .header {
+      background-color: #fff3e0;
+      color: #3e2723;
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      border: 1px solid #ffccbc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #e65100;
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      color: #5d4037;
+    }
+
+    .marquee {
+      margin-bottom: 20px;
+      height: 40px;
+      overflow: hidden;
+      background-color: #ffe0b2;
+      border: 1px solid #ffb74d;
+      border-radius: 8px;
+      padding: 5px;
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .left-column,
+    .right-column {
+      flex: 1;
+      background: #fff8f0;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #efebe9;
+    }
+
+    .left-column {
+      min-width: 60%;
+    }
+
+    .right-column {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 35%;
+    }
+
+    h2 {
+      color: #d84315;
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+      border-bottom: 1px solid #ffccbc;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      margin-top: 20px;
+      color: #e64a19;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+
+    .tribute-image {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      border: 1px solid #ffccbc;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+    }
+
+    table th,
+    table td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #d7ccc8;
+    }
+
+    table th {
+      background-color: #bf360c;
+      color: white;
+    }
+
+    table td {
+      background-color: #fffaf0;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      background-color: #fff3e0;
+      color: #5d4037;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #ffccbc;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        flex-direction: column;
+      }
+
+      .right-column {
+        order: -1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1><u>Tribute to Kishore Kumar</u> 🎶</h1>
+    <p><em>The golden voice that shaped Bollywood forever</em> 🎤</p>
+  </div>
+
+  <div class="marquee">
+    <marquee behavior="scroll" direction="up" scrollamount="2" style="height: 40px; font-size: 1rem;">
+      🌟 <strong>Kishore Kumar</strong> — <em>The legend</em> whose music still <u>echoes in our hearts</u>! 🎶 🎤 ❤️
+    </marquee>
+  </div>
+
+  <div class="content">
+    <div class="left-column">
+      <h2><u>Kishore Kumar: A Musical Legend</u> 🎤🌟</h2>
+      <p>
+        <strong>Kishore Kumar</strong> (1929–1987) was a timeless Indian playback singer and <em>all-rounder entertainer</em>. Born in <u>Khandwa, Madhya Pradesh</u>, his <strong>powerful</strong> yet <em>emotional voice</em>, comic timing, and musical genius made him a <strong>household name</strong>.
+      </p>
+      <p>
+        Known for his <strong>soulful classics</strong> and <em>energetic hits</em>, he collaborated with composers like <u>R.D. Burman</u> and <u>S.D. Burman</u> to create unforgettable songs like "<strong><em>Roop Tera Mastana</em></strong>", "<strong><em>Pal Pal Dil Ke Paas</em></strong>", and "<strong><em>Ek Ajnabee Haseena Se</em></strong>". Kishore won <strong>8 Filmfare Awards</strong> and remains an <em>immortal icon</em>.
+      </p>
+
+      <h3><u>Some of Kishore Kumar's Iconic Songs</u> 🎶</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Song</th>
+            <th>Movie</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><em>Roop Tera Mastana</em></td>
+            <td>Aradhana</td>
+            <td>1969</td>
+          </tr>
+          <tr>
+            <td><em>Pal Pal Dil Ke Paas</em></td>
+            <td>Blackmail</td>
+            <td>1973</td>
+          </tr>
+          <tr>
+            <td><em>Ek Ajnabee Haseena Se</em></td>
+            <td>Ajnabee</td>
+            <td>1974</td>
+          </tr>
+          <tr>
+            <td><em>Chalte Chalte</em></td>
+            <td>Padosan</td>
+            <td>1968</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="right-column">
+      <!-- Update image path if needed -->
+      <img src="C:\Users\Vaibhavi\OneDrive\Desktop\download.jpeg" class="tribute-image" alt="Kishore Kumar">
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 <strong>Tribute to Kishore Kumar</strong>. Made with ❤️ by <em>VAIBHAVI</em>.</p>
+  </div>
+
+</body>
+</html>
