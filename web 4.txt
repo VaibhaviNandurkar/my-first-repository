@@ -1,0 +1,83 @@
+<html>
+<body>
+    <center>
+        <img src="WhatsApp Image 2025-03-20 at 12.13.27_33bc719c" alt="Your Profile Picture" width="150" height="150">
+        <h1>Vaibhavi Nandurkar</h1>
+        <p>B.Tech 1st Year Student</p>
+        <p><a href="mailto:your.email@example.com">vaibhavinandurkar.cse24@sbjit.edu.in</a> | <a href="tel:+91XXXXXXXXXX">+911234567890</a> | <a href="https://www.linkedin.com/in/yourprofile">LinkedIn Profile</a></p>
+    </center>
+
+    <hr>
+
+    <h2>About Me</h2>
+    <p>Highly motivated and enthusiastic B.Tech 1st year student with a strong foundation from 12th grade. Eager to learn and apply new skills in the field of engineering. Possess good problem-solving abilities and a strong desire to contribute to innovative projects.</p>
+
+    <hr>
+
+    <h2>Education Details</h2>
+    <table border="1">
+        
+            <tr>
+                <th>Degree/Certificate</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>Percentage</th>
+            </tr>
+        
+        <tbody>
+            <tr>
+                <td>B.Tech (1st Year)</td>
+                <td>SB Jain Nagpur</td>
+                <td>2024-2025</td>
+                <td>9.99 cgpa</td>
+               
+            </tr>
+            <tr>
+                <td>12th Grade (Science Stream)</td>
+                <td>JN Tata Parsi</td>
+                <td>2024</td>
+                <td>97%</td>
+            </tr>
+            <tr>
+                <td>10th Grade</td>
+                <td>JN Tata Parsi</td>
+                <td>2022</td>
+                <td>98%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>Programming: Basic knowledge of C.</li>
+        <li>Software: Basic knowledge of MSCIT.</li>
+        <li>Languages: English, Hindi , Telugu.</li>
+        <li>Other: Basic problem solving, Quick learner.</li>
+    </ul>
+
+    
+    <hr>
+
+    <h2>Extracurricular Activities</h2>
+    <ul>
+        <li> Participated in college coding club.</li>
+        <li> CO-ordinator of sports team.</li>
+        <li> Vice President of 1st year Forum in college.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Declaration</h2>
+    <p>I hereby declare that the above information is true and correct to the best of my knowledge and belief.</p>
+
+    <hr>
+
+    <p>
+        Signature: <img align="center" src="WhatsApp Image 2025-03-20 at 13.12.28_6288d5e2" alt="Your Signature" width="150" height="100">   <br>
+        Date: 20/03/2025
+    </p>
+    
+</body>
+</html>
